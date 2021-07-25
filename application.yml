@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400001
-  secret: user_token_native_ecommerce
+  secret: user_token_native_application_edit_#2
 
 gateway:
   ip: 127.0.0.1
