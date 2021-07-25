@@ -4,3 +4,10 @@ token:
 
 gateway:
   ip: 127.0.0.1
+
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/ecommerce
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: '{cipher}0a70758da2d18a9228ce29062ba846e18ea9a3a36bb6a1173a864a1de3d4062a'
+    password: '{cipher}1585e6e8035d01691f2a5e9de907397907045daeee49e253695aedab4994e89f'
