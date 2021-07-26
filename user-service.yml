@@ -1,6 +1,8 @@
 token:
   expiration_time: 86400001
-  secret: user_token_native_user_service
+  #secret: user_token_native_user_service
+  secret: user_token_native_ecommerce
+  #secret: '{cipher}AQBa4eb98iUjn2RDBfQ0AxX6d1fJUrUIB212I25g3ONymHzwaIFGf7FnXmUVMMTFtWZ/Ta+WUhgB97vDmdGNLkqumxQSJNsaSs1ZDxPLFifmpmLAthG/+rB32oB+3TR1ZH9zV3iDV4JaGNzsZDJAUYjIxXcBEcRS3oUr1bpgI8U7a4oOj/gpNNvwAapLrRv0f6tTwb8804QZCi3XPuixuiiDQyItow83bGOWFuQY5zpl5cJ5W/C5hyM6rrQEx26bO9+7Lhu5hRSVNplK9WR41rFlTkoVCny+Q+AqaW1MFiuoSYMab/GRl7vL75lXvVrWxwTdwG0xxvbEFO8o91/7bWa0teOwH8rlHTHiHuUpx+Be5/YBwYlJDWX+boyBSFoGRJt2Vb/D9FKRTN5cnMkftl1L'
 
 gateway:
   ip: 127.0.0.1
@@ -11,3 +13,6 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver
     username: '{cipher}AQAT4OiDV3vAmZIYpMiItR3EnX6cY15ofsEHiM5K+x1ln5qJbxAYl57oyvNGnVyL7tXo/X5MloOFJ4yxJXYlwutdXExJX3u5Sc0pFYSBcL6N7naozIDknz92QPtYVAf+A+cpPex3PG6Alqbrp/tWEyPEJZSa5qgIio8yDE8pfvKiIbAWjytwFUxQX9RwlDJfEBiSj1gaF2oh9xwPNMMq3gzqi1hSN9Pda718Hw4fiYBvOT8AeUvu8ZESR0DDhOyQCqNEiBb+K/U1PPT/aIo508vIW6mJwVW1Z4sEci81j/YtqGIIZb3gsqmtADavZhmc0yAIK4z5iv3y+R6utsxn1Z9ADPAGvcCy1k9iUM2ngckxXEGktwlgBUlG8CkLU7DmsPI='
     password: '{cipher}AQAt55WBWlyfJkHaojuq6EpHooyTxbU43CRFN7vWtxSfG8ljh/bejB4KEvfeaJ9f/KyD7JMNja5WOL4Bw+HkHop4ylaZxZqkMlNHDquiySv7jxCqKKHkEqnxG3ZE793v0SwWkQAzADEDHUaKyHBDn9998gH2MkjBwe45yCPhd5wva9z/57/Um6AZjQ5uXmM104SDXacivsx3T29t/XSD3ske4bPu1ZpZUY1iqd8LVzmtCbJ3ZQCb8+6qKEIj+VjEcVHmoYN8BGqlsxTGawVk9FOI1jDUt8q0V/4d82xhPuRqohxxL+ZHN5MzhOecrfWnqxMXk5rDf7x5bVFQiw7mvTkz/VPXvoA6xf5Dq3rYYSnRYBGKTWkA83zw2/UEdw9fd6Y='
+
+order_service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
