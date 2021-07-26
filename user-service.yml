@@ -15,4 +15,6 @@ spring:
     password: '{cipher}AQAt55WBWlyfJkHaojuq6EpHooyTxbU43CRFN7vWtxSfG8ljh/bejB4KEvfeaJ9f/KyD7JMNja5WOL4Bw+HkHop4ylaZxZqkMlNHDquiySv7jxCqKKHkEqnxG3ZE793v0SwWkQAzADEDHUaKyHBDn9998gH2MkjBwe45yCPhd5wva9z/57/Um6AZjQ5uXmM104SDXacivsx3T29t/XSD3ske4bPu1ZpZUY1iqd8LVzmtCbJ3ZQCb8+6qKEIj+VjEcVHmoYN8BGqlsxTGawVk9FOI1jDUt8q0V/4d82xhPuRqohxxL+ZHN5MzhOecrfWnqxMXk5rDf7x5bVFQiw7mvTkz/VPXvoA6xf5Dq3rYYSnRYBGKTWkA83zw2/UEdw9fd6Y='
 
 order_service:
-  url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  #url: http://127.0.0.1:8000/order-service/%s/orders
+  
